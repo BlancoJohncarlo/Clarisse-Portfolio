@@ -544,9 +544,12 @@ span{
         font-size: 55%;
     }
     .skills-container{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
         padding-bottom: 7rem;
-        grid-template-columns: repeat(1,1fr);
-        margin: 0 5rem;
+        margin: 0 auto; 
     }
     .projects-box{
         grid-template-columns: repeat(2,1fr);
